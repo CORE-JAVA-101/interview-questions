@@ -29,3 +29,9 @@ java.util.AbstractCollection<E>
 java.util.AbstractList<E>
 java.util.ArrayList<E>
 ````
+### Create Object of ArrayList.
+````java
+   List<String> list = new ArrayList<String>();
+ // or if you are using JDK 7 or later — you can use the diamond operator:
+   List<String> list = new ArrayList<>();
+````
