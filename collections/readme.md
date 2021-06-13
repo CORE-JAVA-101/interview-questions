@@ -35,11 +35,34 @@ java.util.ArrayList<E>
  // or if you are using JDK 7 or later — you can use the diamond operator:
    List<String> list = new ArrayList<>();
 ````
-### Add element `one by one` into ArrayList
+### Add element `one by one` into ArrayList.
 ````java
   List<String> list = new ArrayList<>(); // created object of ArrayList
   // above ArrayList can hold elements of type String
   list.add("john");
   list.add("doe");
-  list.add(""New York");
+  list.add("New York");
+  
+  System.out.println(list);
+````
+### Size of the ArrayList.
+````java
+  List<String> list = new ArrayList<>(); // created object of ArrayList
+  // above ArrayList can hold elements of type String
+  list.add("john");
+  list.add("doe");
+  list.add("New York");
+  System.out.println("size: "+list.size()); // This will print size as 3
+````
+### Get element by index from ArrayList.
+````java
+  List<String> list = new ArrayList<>(); // created object of ArrayList
+  // above ArrayList can hold elements of type String
+  list.add("john");
+  list.add("doe");
+  list.add("New York");
+  
+  System.out.println(list.get(0)); // get element from 0th index
+  System.out.println(list.get(1)); // get element from 1st index
+  System.out.println(list.get(2)); // get element from 2nd index
 ````
