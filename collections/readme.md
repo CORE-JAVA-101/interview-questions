@@ -35,3 +35,11 @@ java.util.ArrayList<E>
  // or if you are using JDK 7 or later — you can use the diamond operator:
    List<String> list = new ArrayList<>();
 ````
+### Add element `one by one` into ArrayList
+````java
+  List<String> list = new ArrayList<>(); // created object of ArrayList
+  // above ArrayList can hold elements of type String
+  list.add("john");
+  list.add("doe");
+  list.add(""New York");
+````
