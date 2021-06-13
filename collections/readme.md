@@ -45,6 +45,12 @@ java.util.ArrayList<E>
   
   System.out.println(list);
 ````
+### Add array of elements into ArrayList on Declaration.
+````java
+  List<String> list = new ArrayList<>(Arrays.asList("john", "doe", "New York")); // created object of ArrayList
+  // above ArrayList can hold elements of type String
+  System.out.println(list);
+````
 ### Size of the ArrayList.
 ````java
   List<String> list = new ArrayList<>(); // created object of ArrayList
